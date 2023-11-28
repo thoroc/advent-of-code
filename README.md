@@ -14,3 +14,4 @@ Inspiration:
 * <https://github.com/AxlLind/AdventOfCode2022>
 * <https://blog.ediri.io/lets-build-a-cli-in-rust>
 * <https://ofek.dev/words/guides/2022-11-19-writing-a-cli-in-rust/>
+* <https://ahmadrosid.com/blog/cargo-workspace>
