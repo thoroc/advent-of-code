@@ -39,5 +39,5 @@ pub struct List {
 
     /// Specify if we list just the last few puzzle.
     #[clap(short, long, conflicts_with_all = ["all", "year"])]
-    pub last: Option<u8>,
+    pub last: Option<u16>,
 }

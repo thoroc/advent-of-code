@@ -9,5 +9,7 @@ fn main() {
 
     let cli = Cli::parse();
 
-    cli.exec()
+    let result = cli.exec();
+
+    println!("{:?}", result);
 }
