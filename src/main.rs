@@ -11,5 +11,5 @@ fn main() {
 
     let result = cli.exec();
 
-    println!("{:?}", result);
+    println!("{:?}", result.unwrap());
 }
