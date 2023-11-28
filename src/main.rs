@@ -2,7 +2,7 @@ mod commands;
 
 use clap::Parser;
 
-use crate::commands::cli::Cli;
+use crate::commands::exec::Cli;
 
 fn main() {
     println!("Hello World");
