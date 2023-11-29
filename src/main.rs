@@ -5,14 +5,14 @@ use clap::Parser;
 use crate::commands::exec::{Cli, CommandTypes};
 
 fn main() {
-    println!("Hello World");
-
     let cli = Cli::parse();
+
+    println!("Advent of Code - Cli");
 
     let result = cli.exec();
     let value = result.unwrap();
 
-    println!("{:?}", value);
+    // println!("{:?}", value);
 
     match value {
         CommandTypes::ListAll(_) => {
