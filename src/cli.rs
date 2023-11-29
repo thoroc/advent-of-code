@@ -1,4 +1,11 @@
-use clap::{Args, Subcommand};
+use clap::{Args, Parser, Subcommand};
+
+#[derive(Parser, Debug)]
+#[clap(name = "advent-of-code", version = "0.1.0", author = "", about = "")]
+pub struct Cli {
+    #[command(subcommand)]
+    pub command: Commands,
+}
 
 #[derive(Subcommand, Debug)]
 pub enum Commands {
