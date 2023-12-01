@@ -1,4 +1,5 @@
 mod commands;
+mod puzzles;
 
 use clap::Parser;
 
