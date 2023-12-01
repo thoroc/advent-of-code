@@ -9,11 +9,11 @@ fn main() {
     println!("Advent of Code - Cli");
 
     match cli.command {
-        commands::cli::Commands::Solve(cli) => {
-            println!("{:?}", cli)
+        commands::cli::Commands::Solve(args) => {
+            println!("{:?}", args)
         }
-        commands::cli::Commands::List(cli) => {
-            println!("{:?}", cli)
+        commands::cli::Commands::List(args) => {
+            println!("{:?}", args)
         }
     }
 }
